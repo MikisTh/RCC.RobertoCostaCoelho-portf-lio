@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Roberto Costa Coêlho</title>
+  <title>Roberto Costa Coêlho | Engenheiro</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <style>
+
     *{
       margin:0;
       padding:0;
       box-sizing:border-box;
       scroll-behavior:smooth;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:Arial, Helvetica, sans-serif;
     }
 
     body{
@@ -65,11 +66,11 @@
     }
 
     .hero-text{
-      max-width:600px;
+      max-width:650px;
     }
 
     .hero-text h1{
-      font-size:58px;
+      font-size:55px;
       margin-bottom:20px;
       line-height:1.1;
     }
@@ -111,11 +112,12 @@
       align-items:center;
       justify-content:center;
       box-shadow:0 0 40px rgba(77,166,255,0.35);
+      overflow:hidden;
     }
 
     .hero-image img{
-      width:90%;
-      border-radius:50%;
+      width:100%;
+      height:100%;
       object-fit:cover;
     }
 
@@ -147,6 +149,21 @@
       line-height:1.9;
       color:#cfd8e3;
       font-size:17px;
+      text-align:justify;
+    }
+
+    .content-box{
+      background:#0d1f31;
+      padding:35px;
+      border-radius:20px;
+      border:1px solid rgba(255,255,255,0.06);
+      box-shadow:0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .content-box p{
+      margin-bottom:15px;
+      line-height:1.8;
+      color:#cfd8e3;
     }
 
     .cards{
@@ -175,43 +192,6 @@
     }
 
     .card p{
-      color:#cfd8e3;
-      line-height:1.7;
-    }
-
-    .projects{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-      gap:25px;
-    }
-
-    .project{
-      background:#0d1f31;
-      border-radius:20px;
-      overflow:hidden;
-      transition:0.3s;
-    }
-
-    .project:hover{
-      transform:scale(1.03);
-    }
-
-    .project img{
-      width:100%;
-      height:220px;
-      object-fit:cover;
-    }
-
-    .project-content{
-      padding:25px;
-    }
-
-    .project-content h3{
-      color:#4da6ff;
-      margin-bottom:15px;
-    }
-
-    .project-content p{
       color:#cfd8e3;
       line-height:1.7;
     }
@@ -246,206 +226,185 @@
         width:280px;
         height:280px;
       }
+
     }
 
   </style>
 </head>
+
 <body>
 
-  <header>
-    <div class="logo">ENG.</div>
+<header>
 
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#formacao">Formação Acadêmica</a>
-      <a href="#experiencia">Experiência Profissional</a>
-      <a href="#cursos">Cursos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
+  <div class="logo">ENG.</div>
 
-  <section class="hero" id="inicio">
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-    <div class="hero-text">
-      <h1>
-        Engenheiro Civil, Ambiental, Sanitárista e da Saúde do Trabalhador <span>Especialista</span><br>
-        em Soluções Modernas
-      </h1>
+</header>
+
+<section class="hero" id="inicio">
+
+  <div class="hero-text">
+
+    <h1>
+      Engenheiro Civil, Ambiental, Sanitarista e da Saúde do Trabalhador
+      <span>Especialista</span> em Soluções Modernas
+    </h1>
+
+    <p>
+      Desenvolvimento de projetos inovadores, planejamento técnico,
+      gerenciamento de obras e soluções de engenharia com foco em
+      tecnologia, eficiência e resultados.
+    </p>
+
+    <a href="#contato" class="btn">Entrar em Contato</a>
+
+  </div>
+
+  <div class="hero-image">
+    <img src="./img/foto001.jpg" alt="Roberto Costa Coêlho">
+  </div>
+
+</section>
+
+<section id="sobre">
+
+  <h2 class="title">Sobre Mim</h2>
+
+  <div class="about">
+
+    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200" alt="Engenharia">
+
+    <div class="about-text">
 
       <p>
-        Desenvolvimento de projetos inovadores, planejamento técnico,
-        gerenciamento de projetos e soluções de engenharia com foco em
-        tecnologia, eficiência e resultados.
+        Roberto Costa Coêlho é Engenheiro Civil, Ambiental, Sanitarista e
+        especialista na área de Saúde do Trabalhador, com ampla experiência
+        em Vigilância Sanitária, saneamento ambiental e gestão pública.
       </p>
 
-      <a href="#contato" class="btn">Entrar em Contato</a>
-    </div>
+      <p>
+        Atuou em importantes instituições do Estado de Pernambuco,
+        exercendo funções de gerência, fiscalização, aprovação de projetos,
+        consultoria técnica e coordenação de ações ambientais e sanitárias.
+      </p>
 
-    <div class="hero-image">
-      <img src="./img/foto001.jpg" alt="Engenheiro">
-    </div>
-
-  </section>
-
-  <section id="sobre">
-
-    <h2 class="title">Sobre Mim</h2>
-
-    <div class="about">
-
-      <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200" alt="Projeto">
-
-      <div class="about-text">
-        <p>
-      Eu, Roberto Costa Coêlho, sou Engenheiro Civil, da Saúde, Sanitarista, Ambiental e com conclusão
-    de curso de engenharia de Segurança do Trabalho (pendente apenas meu tcc/monografia), ex-funcionário da extinta 
-    FIAM (Fundação do Desenvolvimento Municipal do Interior de Pernambuco - Órgão de planejamento), desde 1979, ficando
-    à disposição da Agência Pernambucana de Vigilância Sanitária (APEVISA/SES) desde que ela passou a ser vinculada ao IRH,
-    hoje IASSEPE, servidor da Vigilância Sanitária desde 1990, antes da criação da referida agência, fui á época, Gerente
-    substituto da Agência de VigiLância Snaitária do Estado quando ainda não era Agência (APEVISA), além de assumir vários 
-    cargos nesta INSTITUIÇÃO e em diversos setores da Secretaria de Saúde do Estado de Pernambuco, Gerente de Aprovação de 
-    Projetos e de Obras de Saneamento. Esclareço ainda que, também fui Gerente de Vigilância Sanitária de Olinda e dê consultoria
-    à Vigilância Sanitária de São lourenço da Mata, bem como, fui membro da conselho de Administração da Companhia Pernambucana 
-    de Meio Ambiente - CPRH, representando a Vigilância Sanitária do Estado, e também representante em alguns comitês de Bacias
-    Hidrográficas do Estado de Pernambuco e membro da Comissão de Licitação representando a FIAM, junto a ADDIPER, além de ser 
-    Vice-Presidente da Associação Brasileira de Engenharia Sanitária e Ambiental (Seção Regional Pernambuco).
-        </p>
-
-       </div>      
+      <p>
+        Possui trajetória consolidada em engenharia aplicada à saúde pública,
+        meio ambiente, segurança do trabalho e planejamento institucional.
+      </p>
 
     </div>
 
-  </section>
+  </div>
 
-   <section id="Experiência Acadêmica">
+</section>
 
-    <h2 class="title">Formação Acadêmica</h2>
+<section id="formacao">
 
-    <div class="project">
+  <h2 class="title">Formação Acadêmica</h2>
 
-      <div class="project">
-        <div class="project-content">
-         <b><p>Formação Acadêmica:</p></b>
+  <div class="content-box">
 
-    <p>Ensino Médio: Colégio Salesiano / Colégio Estadual de Pernambuco</p>
+    <p><strong>Ensino Médio:</strong> Colégio Salesiano / Colégio Estadual de Pernambuco</p>
 
-    <p>Ensino Superior: Bacharelado en Engenheira Civil na Escola de Engenharia do Centro de Tecnologia da Universidade Federal de Pernambuco (UFPE)</p>
+    <p><strong>Graduação:</strong> Engenharia Civil pela Universidade Federal de Pernambuco (UFPE)</p>
 
-    <p>Especialização em Administração de Projetos promovidos pela SUDENE em parceria com a Fundação Getúlio Vargas e a Escola Interamericana de Administração Pública</p>
+    <p><strong>Especialização:</strong> Administração de Projetos — SUDENE / Fundação Getúlio Vargas</p>
 
-    <p>Especialização em Administração de Serviços de Saúde pela Universidade Federal de Pernambuco / Centro de Ciências da Sáude / Departamento de Medicina Social</p>
+    <p><strong>Especialização:</strong> Administração de Serviços de Saúde — UFPE</p>
 
-    <p>Especialização em Gestão em Vigilância Ambiental pela Fundação Oswaldo Cruz - Centro de Pesquisa Ageu Magalhães/Fundação Oswaldo Cruz - FioCruz/ Ministério da Saúde</p>
+    <p><strong>Especialização:</strong> Gestão em Vigilância Ambiental — FIOCRUZ</p>
 
-        </div>
-      </div>
-   
-  </section>
+    <p><strong>Especialização:</strong> Engenharia de Segurança do Trabalho (TCC pendente)</p>
 
-    <section id="Experiência Profissional">
+  </div>
 
-      <h2 class="title">Experiência Profissional</h2>
-  
-       <div class="project">
-         <div class="project-content">
-          <b><p>Experiência Profissional:</p></b>
+</section>
 
-    <p> Gerente Substituto da Vigilância Sanitária do Estado de Pernambuco</p>
+<section id="experiencia">
 
-    <p> Gerente da Divisão de Acompanhamento das Ações de Saneamento da Diretoria Executiva de Saneamento da Diretoria de Desenvolvimento Institucional;</p>
+  <h2 class="title">Experiência Profissional</h2>
 
-    <p> Gerente de Aprovação de Projetos e Ficalização de Obras de Saneamento da Diretoria Executiva de Saneamento da Diretoria de Desenvolvimento Institucional;</p>
+  <div class="content-box">
 
-    <p> Gerente do Departamento de Vigilância Sanitária do Município de Olinda</p>
+    <p>• Gerente Substituto da Vigilância Sanitária do Estado de Pernambuco</p>
 
-    <p> Gerente da Divisão de Meio Ambiente e Saneamento do Departamento de Vigilância Sanitária do Municiípio de Olinda</p>
+    <p>• Gerente de Aprovação de Projetos e Fiscalização de Obras de Saneamento</p>
 
-    <p> Assessoria à Vigilãncia Sanitária do Município de São Lourenço da Mata;</p>
+    <p>• Gerente do Departamento de Vigilância Sanitária do Município de Olinda</p>
 
-    <p> Coordenador de Vigilância Ambiental em Saúde de Pernambuco vinculado ao Centro Nacional de Epidemiologia do Ministério da Saúde</p>
+    <p>• Coordenador de Vigilância Ambiental em Saúde de Pernambuco</p>
 
-        </div>
-      </div>
-   
-  </section>
-  
-     
-      <section id="Cursos">
+    <p>• Consultoria à Vigilância Sanitária de São Lourenço da Mata</p>
 
-          <h2 class="title">Cursos</h2>
-  
-             <div class="project">
-            <div class="project-content">
-              <b><p> Cursos: </p></b>
+    <p>• Representante em Comitês de Bacias Hidrográficas do Estado de Pernambuco</p>
 
-    <p>Universidade Federal de Pernambuco/ UFPE - Engenheiro Civil </p>
+    <p>• Vice-Presidente da Associação Brasileira de Engenharia Sanitária e Ambiental</p>
 
-    <p>Departamento de Medicina Social (UFPE) - Especialização em Administração dos Serviços de Saúde </p>
-    
-    <p>Escola Interamericana de Administração Púlbica (Fundação Getúlio Vargas)/ Superintendência do Desenvolvimento do Nordeste (SUDENE) - VI Curso de Administração de Projetos</p>
-    
-    <p> Centro de Pesquisas Ageu Magalhães/ FioCruz (Ministério da Saúde) - Curso de Especialização de Gestão em Vigilância Ambiental"</p>
+  </div>
 
-    <p>Secretaria de Meio Ambiente / CETESB - Companhia de Tecnologia de Saneamento Ambiental - "Avaliação e Controle de Ruído e Vibração"</p>
-           
-    <p> FIAM - I Semana de Prevenção de Acidentes de Trabalho"</p>
+</section>
 
-    <P>Fundacentro - "Didática para facilitadores de aprendizagem em segurança e saúde no trabalho"</p>
+<section id="cursos">
 
-    <p>Fundacentro / Defesa Civil - "IV Seminário sobre Prevenção de acidentes químicos ampliados para o sistema nacional de Defesa Civil"</p>
-   
-    <p>Fundacentro / TRE-PE - "IV Congresso Pernambucano do Trabalho Seguro e I Congresso Pernambucano de Combate ao Trabalho INfantil e de Estímulo à Aprendizagem"</p>
-   
-    <p>Secretaria Executiva de Vigilância em Saúde - SES/PE - "VI Encontro Macroregional Nordeste em Saúde do Trabalhador e da Trabalhadora"</p>
-    
-    <p>Escola Politécnica de Pernambuco/UPE - Curso de Especialização em Engenharia de Segurança do Trabalho </p>
+  <h2 class="title">Cursos e Capacitações</h2>
 
-    <p>Codecipe/ Defesa Civil -"VI Curso de Prevenção e Preparação para Emergências com Produtos Químicos - PEQUIM" </p>
+  <div class="content-box">
 
-    <p>II Semninário do Fórum Pernambucano de Combate aos Efeitos dos Agrotóxicos na Saúde do Trabalhador, no Meio Ambiente e na Sociedade"</p>
-    
-    <p>Fundação de Saúde Amaury de Medeiros / SES-PE - "Curso de Poluição Sonora"</p>
+    <p>• Curso de Especialização em Engenharia de Segurança do Trabalho — UPE</p>
 
-    <p>Secretaria de Saúde de Pernambuco / Agência Pernambucan de Vigilância Sanitária - Treinamento sobre incidentes com Agentes QBRN (Químico, Biológico, Radiológico e Nuclear)</p>
+    <p>• Avaliação e Controle de Ruído e Vibração — CETESB</p>
 
-    <p>Norteste "Curso de Segurança para Manuseio e Transporte de Cloro e o seu Impacto no Meio Ambiente"</p>
+    <p>• Curso de Poluição Sonora — SES/PE</p>
 
-    <p>SUS / Ministério da Sáude - Treinamento em Ameaças Químicas, Biológicas, Radiológicas e Nucleares (QBRN)</p>
-        </div>
-      </div>
-   
-  </section>
-  
+    <p>• Treinamento em Ameaças QBRN — Ministério da Saúde</p>
 
-  <section id="contato">
+    <p>• Seminário sobre Segurança e Saúde no Trabalho — Fundacentro</p>
 
-    <h2 class="title">Contato</h2>
+    <p>• Curso de Prevenção e Preparação para Emergências com Produtos Químicos</p>
 
-    <div class="cards">
+    <p>• Congresso Pernambucano do Trabalho Seguro</p>
 
-      <div class="card">
-        <h3>Email</h3>
-        <p>robertoccoelho1950@gmail.com</p>
-      </div>
+  </div>
 
-      <div class="card">
-        <h3>WhatsApp</h3>
-        <p>(81) 99945-2775</p>
-      </div>
+</section>
 
-      <div class="card">
-        <h3>LinkedIn</h3>
-        <p>linkedin.com/in/engenheiro</p>
-      </div>
+<section id="contato">
 
+  <h2 class="title">Contato</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Email</h3>
+      <p>robertoccoelho1950@gmail.com</p>
     </div>
 
-  </section>
+    <div class="card">
+      <h3>WhatsApp</h3>
+      <p>(81) 99945-2775</p>
+    </div>
 
-  <footer>
-    © 2026 - Roberto Costa Coêlho | Todos os direitos reservados.
-  </footer>
+    <div class="card">
+      <h3>LinkedIn</h3>
+      <p>linkedin.com/in/engenheiro</p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2026 - Roberto Costa Coêlho | Todos os direitos reservados.
+</footer>
 
 </body>
 </html>
